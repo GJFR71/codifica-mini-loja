@@ -1,5 +1,5 @@
 
-Mini Loja — Estilização em React (4 versões)
+# Mini Loja — Estilização em React (4 versões)
 
 Implementação da mesma tela usando quatro abordagens de estilo. A ideia é comparar o que muda (e o que não muda) quando variamos a técnica:
 
@@ -11,11 +11,11 @@ Tailwind CSS (03-tailwind/)
 
 styled-components (04-styled-components/)
 
-Por que quatro versões?
+# Por que quatro versões?
 
 Para evidenciar prós e contras de cada estratégia: escopo de estilos, organização, reuso, velocidade de prototipagem e controle fino de tema/animações. O layout, os componentes e os dados são os mesmos — muda só a forma de estilizar.
 
-O que a tela entrega
+# O que a tela entrega
 
 Navbar fixa com logo, alternância de tema (claro/escuro com persistência) e badge do carrinho.
 
@@ -36,7 +36,7 @@ Dados: 6 produtos com imagens locais em src/assets/ (funciona offline).
 
 
 
-Exemplo com CSS Global:
+# Exemplo com CSS Global:
 
 cd 01-css-global
 npm install
@@ -67,6 +67,6 @@ npm run build
 npm run preview
 
 
-Licença
+# Licença
 
 Projeto educacional desenvolvido para a Atividade 6 — Codifica Edu.
