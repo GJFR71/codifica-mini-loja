@@ -1,0 +1,10 @@
+.btn{ border:1px solid transparent; border-radius:10px; padding:10px 14px; font-weight:600; cursor:pointer;
+  transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, opacity .18s ease; outline:none }
+.btn:focus-visible{ box-shadow: 0 0 0 3px var(--ring) }
+.disabled{ opacity:.55; cursor:not-allowed }
+.solid{ background: var(--primary); color:#fff }
+.solid:hover{ transform: translateY(-2px); box-shadow: var(--shadow) }
+.outline{ background: transparent; color: var(--fg); border-color: var(--border) }
+.outline:hover{ transform: translateY(-2px); box-shadow: var(--shadow) }
+.ghost{ background: transparent; color: var(--muted) }
+.ghost:hover{ background: color-mix(in oklab, var(--fg) 7%, transparent) }
